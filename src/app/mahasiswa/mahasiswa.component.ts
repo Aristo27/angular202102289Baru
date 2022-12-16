@@ -21,6 +21,7 @@ export class MahasiswaComponent implements OnInit, AfterViewInit {
     this.renderer.addClass(document.body,"sidebar-closed");
     
     this.table1 = $("#table1").DataTable();
+    
     this.bind_mahasiswa();
   }
 
